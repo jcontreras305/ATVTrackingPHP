@@ -7,11 +7,20 @@
         <div>
             <a><h2>ATVTRAKING</h2></a> 
             <br>
-            <a><h3>Home</h3></a>
-            
+            <a><h3>Employees</h3></a>
+            <div>
+                <table>
+                    <thead>
+                        <input type="submit" value="General"  name="btnGeneral">
+                    </thead>
+                    <thead>
+                        <input type="submit" value="Other"  name="btnOther">
+                    </thead>
+                </table>
+            </div>
         </div>
         <div>
-            <form action="Principal.php" method="POST">
+            <form action="Employees.php" method="POST">
                 <ul>
                     <li><input type="submit" value="Employees" name="btnEmployees"></li>
                     <li><input type="submit" value="Materials" name="btnMaterials "></li>

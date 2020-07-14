@@ -7,11 +7,10 @@
         <div>
             <a><h2>ATVTRAKING</h2></a> 
             <br>
-            <a><h3>Home</h3></a>
-            
+            <a><h3>Projects</h3></a>
         </div>
         <div>
-            <form action="Principal.php" method="POST">
+            <form action="Projects.php" method="POST">
                 <ul>
                     <li><input type="submit" value="Employees" name="btnEmployees"></li>
                     <li><input type="submit" value="Materials" name="btnMaterials "></li>

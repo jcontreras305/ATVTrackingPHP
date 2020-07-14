@@ -19,18 +19,16 @@
                     </tr>
                     <tr>
                         <td></td>
-                        <td><input type="submit" value="btnSingIn" name="btnSingIn"></td>
+                        <td><input type="submit" value="Sing In" name="btnSingIn"></td>
                     </tr>
-
                 </table>
             </form>
-            
 <?php
 if (isset($_POST["btnSingIn"])) {
     include ('./DB/db.php');
     $userName = $_POST['Nombre'];
     $userPass = $_POST['Contrasenia'];
-    //qitamos espacios 
+    //quitamos espacios 
     $userName = stripcslashes($userName);
     $userPass = stripcslashes($userPass);
     $conn = connOpen();
