@@ -14,7 +14,7 @@
             <form action="Principal.php" method="POST">
                 <ul>
                     <li><input type="submit" value="Employees" name="btnEmployees"></li>
-                    <li><input type="submit" value="Materials" name="btnMaterials "></li>
+                    <li><input type="submit" value="Materials" name="btnMaterials"></li>
                     <li><input type="submit" value="Customers" name="btnCustomers"></li>
                     <li><input type="submit" value="Proyects" name="btnProjects"></li>
                     <li><input type="submit" value="Users" name="btnUsers"></li>

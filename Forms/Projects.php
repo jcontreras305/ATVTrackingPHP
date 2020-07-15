@@ -13,7 +13,7 @@
             <form action="Projects.php" method="POST">
                 <ul>
                     <li><input type="submit" value="Employees" name="btnEmployees"></li>
-                    <li><input type="submit" value="Materials" name="btnMaterials "></li>
+                    <li><input type="submit" value="Materials" name="btnMaterials"></li>
                     <li><input type="submit" value="Customers" name="btnCustomers"></li>
                     <li><input type="submit" value="Proyects" name="btnProjects"></li>
                     <li><input type="submit" value="Users" name="btnUsers"></li>
@@ -29,9 +29,9 @@
                 elseif (isset($_POST["btnCustomers"])) {
                     header ("Location: ./Customers.php");
                 }
-                elseif (isset($_POST["btnProyects"])) {
-                    header ("Location: ./Projects.php");
-                }
+//                elseif (isset($_POST["btnProjects"])) {
+//                    header ("Location: ./Projects.php");
+//                }
                 elseif (isset($_POST["btnUsers"])) {
                     header ("Location: ./Users.php");
                 }
